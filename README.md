@@ -28,18 +28,9 @@ Composio has a toolkit page for: Slack, Gmail, Outlook, Google Sheets, Google Ca
 
 No Composio toolkit was found for Apple Search Ads, Plaid or Zapier. Those still need their own server or a manual step. Composio was not tested with these mates.
 
-## Tool status legend
-
-| Status | Meaning |
-|---|---|
-| `built-in` | Kiro Crew ships it |
-| `catalogue` | In Kiro Crew's Connections catalogue (connect in the dashboard; some cards need an operator OAuth app or are hidden, then add the MCP endpoint by hand) |
-| `custom-mcp` | No catalogue entry. Works only if you add an MCP server or script yourself. Availability of a vendor MCP server is not verified here |
-| `gap` | No comparable Kiro Crew capability. The mate runs without it and says so |
-
 ## Mates
 
-"Missing tools" lists `gap` items in bold and `custom MCP` items after them. Tools that are built in or in the Connections catalogue are not listed. Each mate's creator shows as **From** when you import it.
+"Missing tools" lists, in bold, any **gap** (a tool Kiro Crew has no equivalent for), then the **custom MCP** tools you connect yourself, for example with Composio. Tools that are built in or in the Connections catalogue are not listed. Each mate's creator shows as **From** when you import it.
 
 | Mate | Description | Category | Missing tools |
 |---|---|---|---|
