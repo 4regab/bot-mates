@@ -1,0 +1,255 @@
+{
+  "legend": {
+    "built-in": "Kiro Crew ships it",
+    "catalogue": "In Kiro Crew's Connections catalogue (connect in the dashboard; some cards need an operator OAuth app or are hidden, then add the MCP endpoint by hand)",
+    "custom-mcp": "No catalogue entry. Works only if you add an MCP server or script yourself. Availability of a vendor MCP server is not verified here",
+    "gap": "No comparable Kiro Crew capability. The mate runs without it and says so"
+  },
+  "tools": {
+    "web-research": {
+      "label": "Web search and page reading",
+      "status": "built-in",
+      "kiro_crew": "web_search + web_fetch"
+    },
+    "browser": {
+      "label": "Real browser (logged-in pages, JS sites)",
+      "status": "built-in",
+      "kiro_crew": "browser tool / playwright-cli, off until installed in Settings -> Browser"
+    },
+    "shell-and-files": {
+      "label": "Shell, files, code search",
+      "status": "built-in",
+      "kiro_crew": "execute_bash, fs_read, fs_write, grep, glob"
+    },
+    "scheduling": {
+      "label": "Recurring routines and reminders",
+      "status": "built-in",
+      "kiro_crew": "kirocrew-cron cron_add; mate check-ins and heartbeat"
+    },
+    "subagents": {
+      "label": "Delegation to helper agents / other bots",
+      "status": "built-in",
+      "kiro_crew": "spawn_run, route_crew, other mates"
+    },
+    "memory": {
+      "label": "Remembering facts and preferences",
+      "status": "built-in",
+      "kiro_crew": "per-mate memory store, learn_add"
+    },
+    "dashboard-artifacts": {
+      "label": "Reports, pages, widgets, decks",
+      "status": "built-in",
+      "kiro_crew": "artifacts, widgets, deploy-web; pptx-maker skill for slides"
+    },
+    "approval-gate": {
+      "label": "Ask before acting",
+      "status": "built-in",
+      "kiro_crew": "ask_question and per-mate approval mode"
+    },
+    "shell-machine": {
+      "label": "Run commands on the user's computer",
+      "status": "built-in",
+      "kiro_crew": "execute_bash on the gateway host; computer-use needs enabling"
+    },
+    "notion": {
+      "label": "Notion",
+      "status": "catalogue",
+      "kiro_crew": "Connections: Notion"
+    },
+    "github": {
+      "label": "GitHub",
+      "status": "catalogue",
+      "kiro_crew": "Connections: GitHub (needs operator OAuth app) or gh CLI via shell"
+    },
+    "linear": {
+      "label": "Linear",
+      "status": "catalogue",
+      "kiro_crew": "Connections: Linear"
+    },
+    "sentry": {
+      "label": "Sentry",
+      "status": "catalogue",
+      "kiro_crew": "Connections: Sentry"
+    },
+    "vercel": {
+      "label": "Vercel",
+      "status": "catalogue",
+      "kiro_crew": "Connections: Vercel"
+    },
+    "mixpanel": {
+      "label": "Mixpanel",
+      "status": "catalogue",
+      "kiro_crew": "Connections: Mixpanel"
+    },
+    "figma": {
+      "label": "Figma",
+      "status": "catalogue",
+      "kiro_crew": "Connections: Figma (card hidden, vendor allowlist; add endpoint by hand)"
+    },
+    "slack": {
+      "label": "Slack workspace read/post",
+      "status": "custom-mcp",
+      "kiro_crew": "Kiro Crew has a Slack chat channel, not a workspace read/post tool"
+    },
+    "gmail": {
+      "label": "Gmail",
+      "status": "custom-mcp",
+      "kiro_crew": ""
+    },
+    "outlook": {
+      "label": "Outlook mail",
+      "status": "custom-mcp",
+      "kiro_crew": ""
+    },
+    "google-calendar": {
+      "label": "Google Calendar",
+      "status": "custom-mcp",
+      "kiro_crew": ""
+    },
+    "google-drive": {
+      "label": "Google Drive",
+      "status": "custom-mcp",
+      "kiro_crew": ""
+    },
+    "google-sheets": {
+      "label": "Google Sheets",
+      "status": "custom-mcp",
+      "kiro_crew": "CSV files through shell cover offline use"
+    },
+    "google-slides": {
+      "label": "Google Slides",
+      "status": "custom-mcp",
+      "kiro_crew": "pptx-maker skill covers local slide files"
+    },
+    "onedrive": {
+      "label": "OneDrive",
+      "status": "custom-mcp",
+      "kiro_crew": ""
+    },
+    "hubspot": {
+      "label": "HubSpot CRM",
+      "status": "custom-mcp",
+      "kiro_crew": ""
+    },
+    "salesforce": {
+      "label": "Salesforce CRM",
+      "status": "custom-mcp",
+      "kiro_crew": ""
+    },
+    "attio": {
+      "label": "Attio CRM",
+      "status": "custom-mcp",
+      "kiro_crew": ""
+    },
+    "clay": {
+      "label": "Clay enrichment",
+      "status": "custom-mcp",
+      "kiro_crew": ""
+    },
+    "hunter": {
+      "label": "Hunter email finder",
+      "status": "custom-mcp",
+      "kiro_crew": ""
+    },
+    "gong": {
+      "label": "Gong call recordings",
+      "status": "custom-mcp",
+      "kiro_crew": ""
+    },
+    "granola": {
+      "label": "Granola meeting notes",
+      "status": "custom-mcp",
+      "kiro_crew": ""
+    },
+    "ashby": {
+      "label": "Ashby recruiting ATS",
+      "status": "custom-mcp",
+      "kiro_crew": ""
+    },
+    "hex": {
+      "label": "Hex analytics notebooks",
+      "status": "custom-mcp",
+      "kiro_crew": ""
+    },
+    "databricks-sql": {
+      "label": "Databricks SQL",
+      "status": "custom-mcp",
+      "kiro_crew": ""
+    },
+    "datadog": {
+      "label": "Datadog",
+      "status": "custom-mcp",
+      "kiro_crew": ""
+    },
+    "ramp": {
+      "label": "Ramp spend data",
+      "status": "custom-mcp",
+      "kiro_crew": ""
+    },
+    "profound": {
+      "label": "Profound AI-search visibility",
+      "status": "custom-mcp",
+      "kiro_crew": ""
+    },
+    "home-assistant": {
+      "label": "Home Assistant / Matter / vendor robot SDKs",
+      "status": "custom-mcp",
+      "kiro_crew": "vendor SDKs can run through shell if installed"
+    },
+    "ad-accounts": {
+      "label": "Ad platform accounts (Apple Search Ads, Google Ads, Meta Ads)",
+      "status": "custom-mcp",
+      "kiro_crew": ""
+    },
+    "seo-tools": {
+      "label": "SEO and rank-tracking tools",
+      "status": "custom-mcp",
+      "kiro_crew": ""
+    },
+    "pstack": {
+      "label": "pstack (unclear, named only as an integration on the page)",
+      "status": "custom-mcp",
+      "kiro_crew": "not identified"
+    },
+    "x": {
+      "label": "X (Twitter): read timeline, profiles, posts",
+      "status": "gap",
+      "kiro_crew": "no X tool. web_fetch reaches public pages only; posting is not possible"
+    },
+    "agentmail": {
+      "label": "AgentMail inboxes the bot owns",
+      "status": "gap",
+      "kiro_crew": "no mailbox the mate can send from or receive in"
+    },
+    "image-generation": {
+      "label": "Text-to-image generation",
+      "status": "gap",
+      "kiro_crew": "no image model. image-authoring skill draws SVG/Pillow/Excalidraw only"
+    },
+    "video-editing": {
+      "label": "Video editing, captions, clipping",
+      "status": "gap",
+      "kiro_crew": "shell + ffmpeg if installed on the host; no editor, no Remotion tool"
+    },
+    "remotion": {
+      "label": "Remotion motion graphics",
+      "status": "gap",
+      "kiro_crew": "install Remotion locally and run it through shell; no connector"
+    },
+    "voice-calls": {
+      "label": "Phone or voice dialing",
+      "status": "gap",
+      "kiro_crew": "no calling tool"
+    },
+    "social-posting": {
+      "label": "Posting to social networks",
+      "status": "gap",
+      "kiro_crew": "no posting tool; drafts only"
+    },
+    "cloud-agents": {
+      "label": "Hosted cloud coding agents on a repo",
+      "status": "gap",
+      "kiro_crew": "spawn_run subagents work locally on a checkout; no hosted cloud agent service"
+    }
+  }
+}
