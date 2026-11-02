@@ -28,8 +28,6 @@ Composio has a toolkit page for: Slack, Gmail, Outlook, Google Sheets, Google Ca
 
 No Composio toolkit was found for Apple Search Ads, Plaid or Zapier. Those still need their own server or a manual step. Composio was not tested with these mates.
 
-`tool-map.json` holds the shared tool table and status legend.
-
 ## Tool status legend
 
 | Status | Meaning |
